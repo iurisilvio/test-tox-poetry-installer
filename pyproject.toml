@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "test-tox-poetry-installer"
+version = "0.1.0"
+description = ""
+authors = ["Iuri de Silvio <iurisilvio@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_tox_poetry_installer"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
